@@ -1,0 +1,77 @@
+I have downloaded the nuSOAP library but unfortunaely it had errors which as a result prevented the display of WSDL doc/XML as the
+errors are in lib folder 2 files related to WSDL doc generation.
+
+So I have tried to use postman by pasting the link of the localhost services display.
+
+
+
+
+
+
+
+BusFees Service XML postman:
+____________________________
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+            <faultcode xsi:nil="true"/>
+            <faultactor xsi:nil="true"/>
+            <faultstring xsi:nil="true"/>
+            <detail xsi:nil="true"/>
+        </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+
+TuitionFees Service XML postman:
+_________________________________
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+            <faultcode xsi:nil="true"/>
+            <faultactor xsi:nil="true"/>
+            <faultstring xsi:nil="true"/>
+            <detail xsi:nil="true"/>
+        </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+
+
+
+
+FoodDelievery service XML postman:
+___________________________________
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+            <faultcode xsi:nil="true"/>
+            <faultactor xsi:nil="true"/>
+            <faultstring xsi:nil="true"/>
+            <detail xsi:nil="true"/>
+        </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
